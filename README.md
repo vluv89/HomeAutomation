@@ -1,38 +1,69 @@
-<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #1e1e2f; color: #ffffff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);">
-  <!-- Header Section -->
-  <div style="text-align: center; margin-bottom: 30px;">
-    <h1 style="color: #00bcd4; font-size: 2.5rem; margin-bottom: 10px;">🏠 Home Automation Project</h1>
-    <p style="font-size: 1.2rem; color: #a0a0a0;">
-      Seamlessly control your home with <strong>Home Assistant</strong>, <strong>Alexa</strong>, and <strong>Google Home</strong>.
-    </p>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Automation with Home Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h1 {
+            color: #3498db;
+        }
+        .icons {
+            font-size: 40px;
+            margin: 10px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏠 Home Automation Project</h1>
+        <p>Automating my home with <strong>Home Assistant</strong>, <strong>Alexa</strong>, and <strong>Google Home</strong>.</p>
+        
+        <div class="icons">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-amazon"></i>
+            <i class="fas fa-lightbulb"></i>
+        </div>
 
-  <!-- Features Section -->
-  <div style="background-color: #2a2a3f; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-    <h2 style="color: #00bcd4; font-size: 2rem; margin-bottom: 15px;">✨ Features</h2>
-    <ul style="list-style-type: none; padding: 0;">
-      <li style="margin-bottom: 10px; font-size: 1.1rem;">
-        <span style="color: #00bcd4; margin-right: 10px;">✔️</span>
-        Centralized control using <strong>Home Assistant</strong>.
-      </li>
-      <li style="margin-bottom: 10px; font-size: 1.1rem;">
-        <span style="color: #00bcd4; margin-right: 10px;">✔️</span>
-        Voice control via <strong>Alexa</strong> and <strong>Google Home</strong>.
-      </li>
-      <li style="margin-bottom: 10px; font-size: 1.1rem;">
-        <span style="color: #00bcd4; margin-right: 10px;">✔️</span>
-        Automate lights, temperature, security, and more.
-      </li>
-      <li style="margin-bottom: 10px; font-size: 1.1rem;">
-        <span style="color: #00bcd4; margin-right: 10px;">✔️</span>
-        Real-time monitoring and notifications.
-      </li>
-    </ul>
-  </div>
+        <img src="https://www.home-assistant.io/images/branding/home-assistant-logo.svg" alt="Home Assistant Logo">
+        
+        <h2>Features</h2>
+        <ul>
+            <li>🔹 Voice Control with Alexa & Google Assistant</li>
+            <li>🔹 Smart Lights & Plugs Integration</li>
+            <li>🔹 Custom Automations & Scripts</li>
+            <li>🔹 TP-Link Deco Device Monitoring</li>
+        </ul>
 
-  <!-- Technologies Section -->
-  <div style="background-color: #00bcd4; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-    <h2 style="color: #00bcd4; font-size: 2rem; margin-bottom: 15px;">🛠️ Technologies Used</h2>
-    <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-      <img src="https://www.home-assistant.io/images/home-assistant-logo.svg" alt="Home Assistant" style="width: 150px; margin: 10px;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Amazon_Alexa_logo.svg" alt="Alex
+        <h2>Get Started</h2>
+        <p>Clone the repo and explore my configurations for smart home automation.</p>
+        <code>git clone https://github.com/yourusername/home-automation.git</code>
+        
+        <div class="footer">⚡ Powered by Technology & Automation ⚡</div>
+    </div>
+</body>
+</html>
