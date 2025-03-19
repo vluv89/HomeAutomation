@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Automation with Home Assistant</title>
@@ -43,15 +43,15 @@
         <h1>🏠 Home Automation Project</h1>
         <p>Automating my home with <strong>Home Assistant</strong>, <strong>Alexa</strong>, and <strong>Google Home</strong>.</p>
         
-        <div class="icons">
+<div class="icons">
             <i class="fab fa-google"></i>
             <i class="fab fa-amazon"></i>
             <i class="fas fa-lightbulb"></i>
-        </div>
+</div>
 
-        <img src="https://www.home-assistant.io/images/branding/home-assistant-logo.svg" alt="Home Assistant Logo">
+  <img src="https://www.home-assistant.io/images/branding/home-assistant-logo.svg" alt="Home Assistant Logo">
         
-        <h2>Features</h2>
+<h2>Features</h2>
         <ul>
             <li>🔹 Voice Control with Alexa & Google Assistant</li>
             <li>🔹 Smart Lights & Plugs Integration</li>
@@ -59,11 +59,11 @@
             <li>🔹 TP-Link Deco Device Monitoring</li>
         </ul>
 
-        <h2>Get Started</h2>
+<h2>Get Started</h2>
         <p>Clone the repo and explore my configurations for smart home automation.</p>
         <code>git clone https://github.com/yourusername/home-automation.git</code>
         
-        <div class="footer">⚡ Powered by Technology & Automation ⚡</div>
+<div class="footer">⚡ Powered by Technology & Automation ⚡</div>
     </div>
 </body>
 </html>
